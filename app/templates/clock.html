@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div>
+    <select name="timezoneselector" id="timezoneselector">
+        {% for id, name, time in times() %}
+        <option value="{{ id }}">{{ name }}</option>
+        {% endfor %}
+    </select>
+    <hr>
+    {% for id, name, time in times() %}
+    <div id="timezone_{{ id }}">
+        <h5>{{ name }} ({{ id }})</h5>
+        <h4>{{ time }}</h4>
+        <hr>
+    </div>
+    {% endfor %}
+</div>
+<script>
+    document.getElementById("timezoneselector").addEventListener("change", function () {
+        const value = this.value;
+        document.getElementById('timezone_'+value).style.color = "red";
+    });
+</script>
+{% endblock %}
