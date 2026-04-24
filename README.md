@@ -1,6 +1,16 @@
 # LearnFlask
 A repository for learning web development using Flask - HTML w/Jinja, CSS and JS
 
+## Lesson 1. Clock
+### Assignments:
+----
+- Javascript colours every selected timezone red. Make it highlight only the selected timezone
+- Now, make the non-selected timezones disapper and display only the one that is selected
+- Make the list display its values in two columns instead of one
+- Add 5 more valid timezones to the list
+- Make the time display not only in the ISO format, but also, next to it, in HH:MM:SS format
+- Add to each timezones of the list a number, e.g. UTC, being first should become "1. UTC" - this should happen in the html template
+
 ## How to setup?
 ### 1. Select lesson from the tag list
 ----
