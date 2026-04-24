@@ -8,8 +8,7 @@ A repository for learning web development using Flask - HTML w/Jinja, CSS and JS
 
 ### 2. Clone the repository
 ----
-Use `git clone url`, where url is what you copy here:
-<img width="413" height="252" alt="grafik" src="https://github.com/user-attachments/assets/e5481acc-ed9e-43e2-94a9-a2c4c916658c" />
+Use `git clone -b 'tagName' --single-branch --depth 1 https://github.com/MAKiTsCharity/LearnFlask.git`, where tagName is the name of the selected tag (you can check it in the website url).
 
 ### 3. Create a python virtualenv
 ----
